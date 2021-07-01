@@ -1,0 +1,461 @@
+/*-----------------------------------------------------------------------------------
+
+	Template Name: phototime
+	Template URI: http://www.softtech-it.com
+	Description: photo related template
+	Author: Mtm Sujan
+	Author URI: http://www.mtmsujan.com
+	License: GNU General Public License version 3.0
+	License URI: http://www.gnu.org/licenses/gpl-3.0.html
+	Version: 1.0
+
+-----------------------------------------------------------------------------------
+
+	1. Typography
+	2. Header Area
+		2.1 Menu Area
+		2.2 Welcome Text 
+		2.3 Social Media 
+	3. Getting Started
+	4. Design Area
+	5. Community Area
+	6. Subscribe Area
+	7. Download Area
+	8. Footer Area
+
+-----------------------------------------------------------------------------------*/
+
+
+/********** Typography **********/
+
+
+
+@font-face {
+	font-family: "gotham rounded book";
+	src: url('fonts/Gotham Rounded Book.woff') format('woff');
+}
+@font-face {
+	font-family: "gotham rounded bold";
+	src: url('fonts/Gotham Rounded Bold.woff') format('woff');
+}
+
+body, 
+p {
+	font-family: "gotham rounded book";
+	margin: 0;
+	font-size: 15px;
+	line-height: 1.3em;
+}
+
+
+p {
+	font-size: 12px;
+	color: #adaeaf;
+	letter-spacing: 2px;
+	margin: 50px 0;
+	line-height: 2em;
+}
+
+h3 {
+	font-family: "gotham rounded bold";
+	text-transform: uppercase;
+	font-size: 18px;
+	color: #16a085;
+	letter-spacing: 2px;
+	line-height: 1.3em;
+}
+
+h5 {
+	font-size: 16px;
+	font-weight: normal;
+}
+
+h2 {
+	text-transform: uppercase;
+	font-size: 32px;
+	letter-spacing: 5px;
+	font-family: "gotham rounded bold";
+}
+
+
+/******************** 2. Header Area **************/
+
+.header-area {
+	background-image: url('images/header-bg.jpg');
+	background-repeat: no-repeat;
+	background-size: 100% 100%;
+	background-position: top left;
+	color: #ffffff;
+	text-align: center;
+	overflow: hidden;
+	padding: 35px 0 15px 0;
+	
+}
+
+/***************menu area*************/
+.menu-area ul {
+	padding: 0;
+	margin: 0;
+	list-style: none;
+	text-align: center;
+}
+
+.menu-area .img {
+	padding: 20px;
+	margin-top: 10px;
+}
+
+.menu-area ul li {
+	font-family: "gotham rounded bold";
+	display: inline;
+	margin: 0 40px;
+	text-transform: uppercase;
+	font-weight: bold;
+	font-size: 15px;
+	letter-spacing: 2px;
+	
+}
+
+.menu-area ul li a:hover {
+	color: #16a085;
+}
+
+.menu-area ul li a {
+	text-decoration: none;
+	color: #ffffff;
+}
+
+/******************welcome text**************/
+
+.welcome-text {
+	padding-top: 210px;
+	overflow: hidden;
+	letter-spacing: 2px;
+}
+
+.btn {
+	text-transform: uppercase;
+	background: #16a085;
+	display: inline-block;
+	letter-spacing: 2px;
+	border-radius: 4px; 
+	font-family: "gotham rounded bold";
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 12px;
+	padding: 15px 35px;
+	transition: .5s;
+}
+
+.btn:hover {
+	background: #0984e3;
+	color: #fdcb6e;
+}
+
+/******************social-icon******************/
+
+.social-icon ul {
+	overflow: hidden;
+	list-style: none;
+	margin-top: 210px;
+}
+
+.social-icon ul li {
+	display: inline;
+}
+
+.social-icon ul li a {
+	text-decoration: none;
+	color: #ffffff;
+	font-size: 25px;
+	margin: 0 5px;
+}
+
+.social-icon ul li:hover a {
+	color: #0984e3;
+}
+
+/*************getting started area***************/
+
+.container {
+	width: 80%;
+	margin: auto;
+}
+
+.getting-started {
+	overflow: hidden;
+	background: #f5f6f7;
+	padding-top: 100px;
+	max-height: 350px;
+}
+
+.col-1-2 {
+	width: 50%;
+	float: left;
+	overflow: hidden;
+}
+
+.mobile-area img {
+	width: 100%;
+}
+
+
+
+/**************design area***************/
+
+.design-area {
+	margin-top: 150px;
+}
+
+.content {
+	background-image: url('images/mobile.png');
+	overflow: hidden;
+	background-repeat: no-repeat;
+	background-size: 30%;
+}
+
+.design {
+	width: 40%;
+	float: right;
+	overflow: hidden;
+}
+
+.arrow {
+	margin: 40px 0;
+}
+
+.arrow i {
+	font-size: 30px;
+	text-decoration: none;
+	color: #000000;
+	margin-right: 10px;
+}
+
+/*************community-area****************/
+
+.community-area {
+	padding: 130px 0;
+	background: #f5f6f7;
+}
+
+.column {
+	overflow: hidden;
+}
+
+.col-1-3 {
+	width: 32%;
+	margin-right: 1%;
+	float: left;
+	overflow: hidden;
+}
+
+.column .buss {
+	text-align: center;
+}
+
+
+.buss p {
+	margin: 0;
+	color: #373737;
+	line-height: 1.3em;
+	font-size: 12px;
+}
+
+.buss h3 {
+	color: #000000;
+}
+
+.buss img {
+	margin-top: 40px;
+}
+
+
+.second {
+	width: 100%;
+	overflow: hidden;
+}
+
+.second-arrow {
+	float: right;
+	overflow: hidden;
+	font-size: 30px;
+	margin-right: 20px;
+}
+
+/***************subscibe area***************/
+
+.subscribe-area {
+	background: url('images/subscribe-bg.jpg') no-repeat 0 0 / 100% 100%;
+	padding: 300px 0;
+	text-align: center;
+	
+}
+
+
+.subscribe-area h3 {
+	color: #ffffff;
+	font-size: 25px;
+}
+
+.subscribe-area form input[type=email] {
+	font-family: "gotham rounded bold";
+	padding: 20px 40px;
+	border: none;
+	text-transform: uppercase;
+	border-radius: 3px 0 0 3px;
+	letter-spacing: 3px;
+}
+.subscribe-area form button {
+	font-family: "gotham rounded book";
+	padding: 20px;
+	border: none;
+	border-radius: 0 3px 3px 0;
+	background: #16a085;
+	margin-left: -4px;
+}
+
+/**********************download-area******************/
+
+.download-area {
+	text-align: center;
+	background: #f5f6f7;
+	padding: 100px 50px;
+}
+
+.download-area h3 {
+	margin-bottom: 10px;
+	color: #000000;
+	letter-spacing: 3px;
+}
+
+.download-area p {
+	margin: 0;
+	color: #000000;
+	line-height: 1.5em;
+}
+
+.third-arrow input[type=text] {
+	padding: 15px 25px;
+	font-size: 20px;
+	border: none;
+	background: #1abc9c;
+	color: #ffffff;
+	margin-left: 20px;
+	border-radius: 3px 0 0 3px;
+}
+
+.third-arrow button {
+	margin-top: 5px;
+	font-size: 36px;
+	padding-bottom: 12px;
+	border: none;
+	background: #16a085;
+	color: white;
+	margin-left: -5px;
+	overflow: hidden;
+	border-radius: 0 3px 3px 0
+}
+
+.third-arrow {
+	margin-top: 50px;
+}
+
+/**************footer area ********************/
+
+
+.footer-area {
+	padding: 40px 0;
+	overflow: hidden;
+}
+
+.footer {
+	width: 80%;
+	float: left;
+	overflow: hidden;
+}
+
+.footer-area img {
+	float: right;
+	overflow: hidden;
+}
+
+.footer p {
+	font-family: "gotham rounded bold";
+	margin: 10px 0;
+	font-size: 15px;
+	color: #000000;
+	text-transform: uppercase;
+}
+
+
+/* Responsive Design */
+
+@media (max-width: 1090px) {
+	.menu-area ul li {
+		display: block;
+	}
+	.getting-started {
+		padding-top: 50px;
+		max-height: 500px;
+	}
+}
+
+@media (max-width: 768px) {
+	
+	h2 {
+		font-size: 25px;
+	}
+
+	.text-area {
+		min-height: 400px;
+	}
+	.col-1-2 {
+		width: 100%;
+		float: none;
+		overflow: hidden;
+	}
+
+	.mobile-area img {
+		display: none;
+	}
+
+	.social-icon ul {
+		margin-top: 100px;
+	}
+
+	.content {
+		background-image: none;
+	}
+
+	.design {
+		width: 100%;
+		float: none;
+	}
+
+	.third-arrow input[type=text] {
+		padding: 10px 20px;
+		font-size: 17px;
+	}
+	
+	.third-arrow button {
+		margin-top: 5px;
+		font-size: 26px;
+		padding-bottom: 9px;
+	}
+	
+}
+
+@media (max-width: 990px) {
+	
+}
+
+
+
+
+
+
+
+
+
+
+
